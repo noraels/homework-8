@@ -1,0 +1,17 @@
+1. www.example.com?chapter=number&review=description
+2. It means removing and replacing any characters that should not be in a value (bad script). For example, there are
+characters that would be interpreted as code you would not want to so you can escape them to prevent that.
+3. 200: the requested page has been fetched (success)
+400: the client requested a page but the server was not able to understand anything (bad request)
+401: user authentication is required (unauthorized error)
+403: the request was understood by the server but it refuses to fulfill it (forbidden)
+404: the server did not find what the user requested, server does not want to give reason for request refusal, server
+cannot find target resource (not found)
+500: requesting a URL is not fulfilled because the server encounters an unexpected condition (internal server error)
+4. Validating data can help you ensure all the data meets the rules you have set for it. For example, you can ensure its
+data type if you only want a specific type to prevent other data types from being included, not empty if you only want data
+containing a value, etc.  
+5. Sessions are text files that store information about a user and their preferences on the server for the duration 
+of a single visit to that site. Cookies are text files that the browser can store user data in. Browsers only send data 
+in a cookie to a server when it is requesting data from the same domain that sent it. 
+
